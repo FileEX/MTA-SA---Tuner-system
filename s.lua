@@ -6,7 +6,7 @@ local function getUserFromUID(i)
 	if i and tonumber(i) then
 		local q = exports['rpg_mysql']:mysql_query('SELECT username FROM rpg_accounts WHERE uid=? LIMIT 1;',i);
 		if q then
-			return q;
+			return q[1].username;
 		end
 	end
 end
