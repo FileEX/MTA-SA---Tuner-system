@@ -4,5 +4,7 @@ This is advanced tuning system, with handlings, parts and engine modifies. It ha
 
 # COLOURS
 **Yellow** - *Part which vehicle already have*
+
 **Red** - *Part which isn't compatible with vehicle*
+
 **Green** - *Part which is compatible with vehicle and vehicle don't have it yet*
